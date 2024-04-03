@@ -1,0 +1,31 @@
+.search-bar-container {
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 150px;
+    margin-right: 10px; 
+    width: 850px;
+}
+
+.search-button,
+.refresh-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #FFBC49;
+    color: #010101; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-button:hover,
+.refresh-button:hover {
+    background-color: #FE6601; 
+}
